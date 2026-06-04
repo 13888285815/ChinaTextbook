@@ -8,8 +8,9 @@
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f5f5f5;color:#333;max-width:1200px;margin:0 auto;padding:20px}
 h1{text-align:center;color:#2c3e50;margin:20px 0;padding:15px;background:#fff;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,.1)}
+h2{text-align:center;color:#3498db;margin:15px 0 10px}
 .category{background:#fff;border-radius:8px;padding:20px;margin:15px 0;box-shadow:0 2px 4px rgba(0,0,0,.1)}
-.category h2{color:#3498db;border-bottom:2px solid #3498db;padding-bottom:8px;margin-bottom:15px;font-size:18px}
+.category h3{color:#3498db;border-bottom:2px solid #3498db;padding-bottom:8px;margin-bottom:15px;font-size:18px}
 .file-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 .file-item{display:flex;align-items:center;padding:12px 16px;background:#f8f9fa;border-radius:6px;text-decoration:none;color:#333;transition:all .2s;border:1px solid #eee}
 .file-item:hover{background:#e3f2fd;transform:translateY(-1px);box-shadow:0 2px 8px rgba(52,152,219,.2);border-color:#3498db}
@@ -20,10 +21,43 @@ h1{text-align:center;color:#2c3e50;margin:20px 0;padding:15px;background:#fff;bo
 </style>
 </head>
 <body>
-<h1>📚 中国教材电子课本（高中）</h1>
+<h1>📚 中国教材电子课本</h1>
 
+<h2>🏫 小学教材</h2>
 <div class="category">
-<h2>📖 高中语文（统编版）</h2>
+<h3>📖 小学各科教材</h3>
+<div class="file-list">
+<a class="file-item" href="小学/语文/"><span class="icon">📕</span><span class="name">语文</span></a>
+<a class="file-item" href="小学/数学/"><span class="icon">📐</span><span class="name">数学</span></a>
+<a class="file-item" href="小学/英语/"><span class="icon">🔤</span><span class="name">英语</span></a>
+<a class="file-item" href="小学/科学/"><span class="icon">🔬</span><span class="name">科学</span></a>
+<a class="file-item" href="小学/道德与法治/"><span class="icon">⚖️</span><span class="name">道德与法治</span></a>
+<a class="file-item" href="小学/体育与健康/"><span class="icon">⚽</span><span class="name">体育与健康</span></a>
+<a class="file-item" href="小学/音乐/"><span class="icon">🎵</span><span class="name">音乐</span></a>
+<a class="file-item" href="小学/美术/"><span class="icon">🎨</span><span class="name">美术</span></a>
+</div>
+</div>
+
+<h2>🎓 初中教材</h2>
+<div class="category">
+<h3>📖 初中各科教材</h3>
+<div class="file-list">
+<a class="file-item" href="初中/语文/"><span class="icon">📕</span><span class="name">语文</span></a>
+<a class="file-item" href="初中/数学/"><span class="icon">📐</span><span class="name">数学</span></a>
+<a class="file-item" href="初中/英语/"><span class="icon">🔤</span><span class="name">英语</span></a>
+<a class="file-item" href="初中/物理/"><span class="icon">⚛️</span><span class="name">物理</span></a>
+<a class="file-item" href="初中/化学/"><span class="icon">🧪</span><span class="name">化学</span></a>
+<a class="file-item" href="初中/生物学/"><span class="icon">🧬</span><span class="name">生物学</span></a>
+<a class="file-item" href="初中/历史/"><span class="icon">📜</span><span class="name">历史</span></a>
+<a class="file-item" href="初中/地理/"><span class="icon">🌍</span><span class="name">地理</span></a>
+<a class="file-item" href="初中/道德与法治/"><span class="icon">⚖️</span><span class="name">道德与法治</span></a>
+<a class="file-item" href="初中/体育与健康/"><span class="icon">⚽</span><span class="name">体育与健康</span></a>
+</div>
+</div>
+
+<h2>🎓 高中教材</h2>
+<div class="category">
+<h3>📖 高中语文（统编版）</h3>
 <div class="file-list">
 <a class="file-item" href="gaozhong/yuwen/bixiu1.pdf"><span class="icon">📗</span><span class="name">必修上册</span></a>
 <a class="file-item" href="gaozhong/yuwen/bixiu2.pdf"><span class="icon">📘</span><span class="name">必修下册</span></a>
@@ -34,16 +68,16 @@ h1{text-align:center;color:#2c3e50;margin:20px 0;padding:15px;background:#fff;bo
 </div>
 
 <div class="category">
-<h2>🔢 高中数学（人教A版）</h2>
+<h3>📐 高中数学（人教A版）</h3>
 <div class="file-list">
 <a class="file-item" href="gaozhong/shuxue/bixiu2.pdf"><span class="icon">📐</span><span class="name">必修第二册</span></a>
 <a class="file-item" href="gaozhong/shuxue/xuanxiu3.pdf"><span class="icon">📊</span><span class="name">选择性必修第三册</span></a>
 </div>
-<div class="download-note">⚠️ 必修第一册、选择性必修第一册、选择性必修第二册体积较大（103-267MB），请在 <a href="https://github.com/13888285815/workbuddy-ChinaTextbook/releases/tag/v1.0-large-files" target="_blank">Releases</a> 页面下载</div>
+<div class="download-note">⚠️ 必修第一册、选择性必修第一册、选择性必修第二册体积较大（103-267MB），请在 <a href="https://github.com/13888285815/ChinaTextbook/releases" target="_blank">Releases</a> 页面下载</div>
 </div>
 
 <div class="category">
-<h2>🔤 高中英语（人教版）</h2>
+<h3>🔤 高中英语（人教版）</h3>
 <div class="file-list">
 <a class="file-item" href="gaozhong/yingyu/bixiu1.pdf"><span class="icon">🔤</span><span class="name">必修第一册</span></a>
 <a class="file-item" href="gaozhong/yingyu/bixiu2.pdf"><span class="icon">🔤</span><span class="name">必修第二册</span></a>
@@ -57,7 +91,7 @@ h1{text-align:center;color:#2c3e50;margin:20px 0;padding:15px;background:#fff;bo
 
 <div class="footer">
 <p>📚 免费共享 · 持续更新 · 支持正版</p>
-<p style="margin-top:5px"><a href="https://github.com/13888285815/workbuddy-ChinaTextbook" target="_blank">GitHub 仓库</a> · 如有问题请提 Issue</p>
+<p style="margin-top:5px"><a href="https://github.com/13888285815/ChinaTextbook" target="_blank">GitHub 仓库</a> · 如有问题请提 Issue</p>
 </div>
 </body>
 </html>
